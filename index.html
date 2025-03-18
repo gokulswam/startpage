@@ -3,144 +3,37 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>javacafe's site</title>
+    <title>javacafe's startpage</title>
     <link rel="manifest" href="/assets/favicon_io/site.webmanifest" />
     <link
       rel="icon"
       href="/assets/favicon_io/favicon.ico"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="/css/style.css" />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/kirsch@latest/kirsch.css"
     />
+
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header>
-      <p>JAVACAFE</p>
+      <p>STARTPAGE</p>
       <hr />
-      <p>Electrical Engineering Graduate Student</p>
     </header>
     <br />
-    <pre>
-                  Vdd       
-                  |           
-                  *---
-                  |  | 
-           ||------  |
-        ---||->|------  
-        |  ||--|---
-        |         |
-        |         | 
-Vin ○---*         *---○ Vout
-        |         |
-        |         |
-        |  ||------
-        ---||<-|------
-           ||--|---  | 
-                  |  |
-                  *---
-                  |
-                __|__
-                 ___
-                  -
-      </pre
-    >
-    <aside>
-      The ascii schematic above is a simple CMOS inverter. It's built with two
-      complementary MOSFETs (NMOS and PMOS) which allows for very efficient
-      power consumption. In digital logic, this is essentially a NOT gate. This
-      is a very simple design; however, it took me a while to draw it out as
-      ASCII.
-    </aside>
-    <p>LINKS</p>
-    <table class="tg">
-      <tbody>
-        <tr>
-          <td class="tg-0pky">Github</td>
-          <td class="tg-0pky">
-            <a
-              href="https://github.com/javacafe01"
-              target="_blank"
-              rel="noopener noreferrer me"
-              >javacafe01</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td class="tg-0pky">Mastodon</td>
-          <td class="tg-0pky">
-            <a
-              href="https://social.sdf.org/@javacafe01"
-              target="_blank"
-              rel="noopener noreferrer me"
-              >javacafe01@social.sdf.org</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td class="tg-0pky">Pixelfed</td>
-          <td class="tg-0pky">
-            <a
-              href="https://pixelfed.social/javacafe01"
-              target="_blank"
-              rel="noopener noreferrer me"
-              >javacafe01@pixelfed.social</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td class="tg-0pky">Pixelfed (cat pics)</td>
-          <td class="tg-0pky">
-            <a
-              href="https://pixelfed.social/memelovesfeet"
-              target="_blank"
-              rel="noopener noreferrer me"
-              >memelovesfeet@pixelfed.social</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td class="tg-0pky">Startpage</td>
-          <td class="tg-0pky">
-            <a href="/startpage" target="_blank" rel="noopener noreferrer"
-              >javacafe.sdf.org/startpage</a
-            >
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <footer>
-      <hr />
-      <br />
-      <a
-        href="https://javacafe.sdf.org"
-        target="_blank"
-        rel="noopener noreferrer"
-        ><img
-          src="/assets/button.png"
-          alt="javacafe button"
-          width="88"
-          height="31"
-      /></a>
-      <a
-        href="https://oliverkwebb.github.io/aboutme/"
-        target="_blank"
-        rel="noopener noreferrer"
-        ><img
-          src="https://oliverkwebb.github.io/8831.png"
-          alt="voyager button"
-          width="88"
-          height="31"
-      /></a>
-      <a href="https://sdf.org/" target="_blank" rel="noopener noreferrer"
-        ><img
-          src="https://sdf.org/sdfbanner.png"
-          alt="sdf button"
-          width="88"
-          height="31"
-      /></a>
-    </footer>
+    <div class="container">
+      <ul class="grid">
+        <li><a href="https://google.com" target="_blank">Google</a></li>
+        <li><a href="https://github.com" target="_blank">GitHub</a></li>
+        <li><a href="https://lemmy.sdf.org" target="_blank">Lemmy</a></li>
+        <li><a href="https://fosstodon.org" target="_blank">Mastodon</a></li>
+        <li><a href="https://pixelfed.social" target="_blank">Pixelfed</a></li>
+        <li><a href="https://bsky.app" target="_blank">Bsky</a></li>
+        <li><a href="https://canvas.sdsu.edu/" target="_blank">Canvas</a></li>
+      </ul>
+    </div>
   </body>
 </html>
